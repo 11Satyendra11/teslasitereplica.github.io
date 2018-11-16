@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>alert!!</title>
+	<script type="text/javascript">
+		console.log("Hello dunia1");
+		//alert("Hello Dunia!!");
+		var date = new Date();
+		alert("Today is " + date.toString());
+		response = window.prompt("Information","Enter Something");
+		alert(response);
+
+		child_window = window.open("page","title");
+
+		function myFunction()
+		{
+			var txt = "docker";
+			return txt;
+		}
+		console.log(myFunction());
+		console.log("Hello dunia2");
+		const doc = document.getElementByID('tom').innerHTML("Hello World!!");
+		console.log(doc);
+	</script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		$("document").ready(function()
+		{
+			$("body").append("<p> The page just loaded!</p>");
+		});
+	</script>
+
+</head>
+<body>
+	<div class= "demo" id = "tom">
+		<h1 >
+			"HELLO DUNIA!!"
+		</h1>
+	</div>
+
+
+
+</body>
+</html>
